@@ -97,7 +97,7 @@ changes clients ever need to care about:
 {
   "version": "1.0.0", // semver of the set
   "fallback": "speaker", // rendered for unknown ids
-  "icons": ["speaker", "speakers", "tv" /* … */], // canonical, kebab-case, stable forever
+  "icons": ["speaker", "speakers", "tv" /* … */] // canonical, kebab-case, stable forever
 }
 ```
 
@@ -123,9 +123,7 @@ group and search the icons however fits their UI.
 - Vendored icons are committed as generated — edit custom artwork only; re-vendor
   upstream icons instead of hand-editing them.
 
-> **Note:** the four original custom icons (`apple-tv`, `mac`, `homepod-mini`,
-> `sonos`) were authored on larger grids and are currently normalized with a scale
-> transform, `speakers` is a first draft, and `soundbar` uses a 1.5 stroke for
+> **Note:** `speakers` is a first draft, and `soundbar` uses a 1.5 stroke for
 > detail. A design pass redrawing them natively on the 24×24 grid (stroke 2 where
 > feasible) is welcome.
 
